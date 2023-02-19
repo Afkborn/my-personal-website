@@ -1,7 +1,8 @@
-import React, { Component, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Container } from "reactstrap";
 import { Link } from "react-router-dom";
 import PageNames from "../../constants/PageNames";
+
 function NotFound() {
   useEffect(() => {
     document.title = PageNames.notFound;

@@ -1,7 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Container } from "reactstrap";
 
-export default function Navigation() {
+function Navigation() {
   return (
-    <div>Navigation</div>
-  )
+    <div>
+      <Container></Container>
+    </div>
+  );
 }
+
+export default Navigation;

@@ -1,7 +1,11 @@
-import React from 'react'
-
-export default function Footer() {
+import React from "react";
+import { Container } from "reactstrap";
+function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <div>
+      <Container></Container>
+    </div>
+  );
 }
+
+export default Footer;
